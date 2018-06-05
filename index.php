@@ -13,11 +13,21 @@ else
 
 $bandname = $first . $second;
 
-echo '<br>';
-echo 'Your epic band of legendary smiths of Music shall be known as:<br>';
-echo '<br>&nbsp;&nbsp;&nbsp;<b>' . $bandname . '</b><br>';
-echo '<br>';
-echo 'Press F5 or reload for new Name';
-
 function r($array) { return $array[array_rand($array)]; }
+
+?>
+
+<html>
+ <head>
+  <title>Bandnames by l0rb</title>
+ </head>
+ <body>
+  <br>
+  Your epic band of legendary smiths of Music shall be known as:<br>
+  <br>
+  &nbsp;&nbsp;&nbsp;<b><?=$bandname;?></b><br>
+  <br>
+  Press F5 or reload for new Name
+ </body>
+</html>
 
