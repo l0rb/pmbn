@@ -3,25 +3,31 @@
 $first = [
    'Ancient',
    'Daughters of',
+   'Darkness of',
    'Dragon',
    'Dragons of',
+   'Eternal',
    'Fairy-',
    'Hammer of',
    'Keeper of',
    'Power-',
    'Sons of',
+   'Sword of',
    'Symphony of',
    'Void',
+   
 ];
 
 $second = [
    'Beast',
    'Dragons',
+   'Fear',
    'Fire',
    'Glory',
    'Guardian',
    'Ice',
    'Storm',
+   'Sword', 
    'Time',
    'Twilight',
    'Wizards',
