@@ -15,7 +15,6 @@ $first = [
    'Sword of',
    'Symphony of',
    'Void',
-   
 ];
 
 $second = [
@@ -33,8 +32,10 @@ $second = [
    'Wizards',
 ];
 
-$first = r($first);
-$second = r($second);
+do {
+   $first = r($first);
+   $second = r($second);
+} while(substr($first, 0, 4) === substr($second, 0, 4));
 
 if(strpos($first, '-'))
     $first = substr($first, 0, -1);
