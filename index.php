@@ -1,7 +1,31 @@
 <?php
 
-$first = ['Dragon', 'Dragons of', 'Sons of', 'Daughters of', 'Power-', 'Fairy-', 'Void', 'Symphony of', 'Hammer of', 'Keeper of', 'Ancient'];
-$second = ['Dragons', 'Twilight', 'Fire', 'Ice', 'Time', 'Storm', 'Beast', 'Guardian', 'Wizards', 'Glory'];
+$first = [
+   'Ancient',
+   'Daughters of',
+   'Dragon',
+   'Dragons of',
+   'Fairy-',
+   'Hammer of',
+   'Keeper of',
+   'Power-',
+   'Sons of',
+   'Symphony of',
+   'Void',
+];
+
+$second = [
+   'Beast',
+   'Dragons',
+   'Fire',
+   'Glory',
+   'Guardian',
+   'Ice',
+   'Storm',
+   'Time',
+   'Twilight',
+   'Wizards',
+];
 
 $first = r($first);
 $second = r($second);
