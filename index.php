@@ -62,7 +62,7 @@ $second = [
 do {
    $first = r($first);
    $second = r($second);
-} while(substr($first, 0, 4) === substr($second, 0, 4));
+} while(too_similar($first, $second));
 
 if(strpos($first, '-'))
     $first = substr($first, 0, -1);
@@ -72,6 +72,7 @@ else
 $bandname = $first . $second;
 
 function r($array) { return $array[array_rand($array)]; }
+function too_similar($a, $b) { return substr($a, 0, 4) === substr($b, 0, 4); }
 
 ?>
 
